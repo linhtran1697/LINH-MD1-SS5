@@ -1,0 +1,53 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.news-card {
+  width: 400px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+/* Thanh hiển thị lượt xem */
+.stats-bar {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.icon-eye {
+  background-color: #f39c12; /* Màu cam của icon */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+/* Phần tiêu đề tin tức */
+.content {
+  padding: 15px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #333;
+  font-weight: bold;
+}
