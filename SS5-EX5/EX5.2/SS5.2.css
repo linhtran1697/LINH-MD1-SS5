@@ -1,0 +1,20 @@
+div {
+  width: 300px;
+  height: 200px;
+  background-color: #5e5e67 0s; /* Màu xám đậm */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 20px solid white; /* Viền trắng bên ngoài */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: #cecece;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+div:hover {
+  background-color: Blue;
+}
